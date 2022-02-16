@@ -137,6 +137,22 @@ body {
 
 .portfolio {
   margin: 0 0 120px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.portfolio  p{
+  text-align: center;
+}
+
+.portfolio .for_house {
+  text-align: center;
+}
+
+.portfolio .blog {
+  margin-top: 20px;
+  text-align: center;
 }
 
 .projects {
@@ -158,16 +174,19 @@ body {
   margin: 0 0 24px;
 }
 
-.button {
-  padding: 6px 20px;
-  display: inline-block;
-  vertical-align: baseline;
-  text-decoration: none;
+.portfolio a {
+  max-width: 300px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
   text-transform: uppercase;
   border-radius: 4px;
   background-color: #288be6;
   color: #ffffff;
+  text-decoration: none;
+  padding: 6px 20px;
 }
+
 
 .page-footer {
   padding: 40px 0;
